@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东方音游</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Musicx mad</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>New Games</h2>
+        <div class="game-container">
+            <!-- Add game content here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Music Mad</p>
+    </footer>
+</body>
+</html>
