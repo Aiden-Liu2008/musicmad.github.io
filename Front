@@ -1,29 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>东方音游</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Mad</title>
+  <style>
+    body {
+      font-family: monospace;
+      color: white;
+      text-align: center;
+      margin-top: 100px;
+      background-image: url("bgpic1.jpg"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .ascii-art {
+      white-space: pre;
+    }
+    #startButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ffcc00;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Musicx mad</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>New Games</h2>
-        <div class="game-container">
-            <!-- Add game content here -->
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 Music Mad</p>
-    </footer>
+  <div class="ascii-art">
+    ██████████████████████████████████
+    █▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▀█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+    █▄░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▄█
+    ██████████████████████████████████
+  </div>
+  
+  <!-- Start button -->
+  <button id="startButton">Start</button>
+
+  <script>
+    // Get start button element
+    const startButton = document.getElementById("startButton");
+
+    startButton.addEventListener("click", () => {
+      window.location.href = "song_selection.html"; // Change to your page's URL
+    });
+  </script>
 </body>
 </html>
