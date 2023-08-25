@@ -55,7 +55,8 @@
     const startButton = document.getElementById("startButton");
 
     startButton.addEventListener("click", () => {
-      window.location.href = "song_selection.html"; // Change to your page's URL
+      
+      window.location.href = "game.html"; 
     });
   </script>
 </body>
